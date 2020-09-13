@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="../css0/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+</head>
+<body>
+<h1 id="title">Travel to Middle East Tourism Survey Form</h1>
+
+<p id="description">Thank you for Choosing our Tour Package</p>
+
+<div id="container">
+	<h3 class="font">Please give your Feedback correctly, because we value your feedback</h3>
+<form id="survey-form">
+
+	  <div class="name">
+		<label id="name-label" for="name">Name:</label> 
+			<input id="name" type="text" 
+			name="name" placeholder="Enter your Name" required>
+		</div class="email">
+			<br>
+			<div>
+			<label id="email-label" for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="Enter your Email" required>
+		</div>
+
+		<div>
+			<br>
+			<div class="age">
+			<label id="number-label" for="number">Age:</label>
+            <input id="number" type="number" min="0" max="110" placeholder="Enter your Age">
+        </div>
+            <br>
+            <div>
+            <label for="tourism-label">Your Tourism package:</label>
+           
+            <select id="dropdown">
+            	<option selected disabled>Select your Tourism Package</option>
+  <option value="adventure">Adventure Tourism Package</option>
+  <option value="wildlife">Wildlife Tourism Package
+</option>
+  <option value="medical">Medical Tourism Package
+</option>
+  <option value="pilgrimage">Pilgrimage Tourism Package
+</option>
+    <option value="eco">Eco Tourism Package
+</option>
+  <option value="cultural">Cultural Tourism Package
+</option>
+  <option value="cruise">Cruise Tourism Package
+Wellness Tourism Package</option>
+   <option value="wellness">Wellness Tourism Package</option>
+</select>
+           </div>  
+           <br>
+<div>
+	<label>Mention the month you travelled:</label>
+	<input type="text" name="time-year" placeholder="Enter the time of year" required/>
+</div>
+
+<div class="container2">
+	<div class="horz-align" id="flex1">
+	<h3 id="h3">Traveller Type:</h3>
+	<label for="solo">
+	<input type="radio" name="type-traveller" value="solo" required/>Solo</label>
+	
+
+	<label for="Couple">
+	<input type="radio" name="type-traveller" value="Couple" required/>Couple</label>
+
+	<label for="Family">
+	<input type="radio" name="type-traveller" value="Family" required/>Family</label>
+	
+	<label for="Friends">
+	<input type="radio" name="type-traveller" value="Friends" required/>Friends</label>
+
+	<label for="Honeymoon">
+	<input type="radio" name="type-traveller" value="Honeymoon" required/>Solo</label>
+	<br>
+	<label for="Private group">
+	<input type="radio" name="type-traveller" value="Honeymoon" required/>Honeymoon</label>
+	<br>
+    <label for="Private group">
+	<input type="radio" name="type-traveller" value="Private group" required/>Private group</label>
+</div>
+<div class="horz-align" id="flex2">
+	
+	<h3 id="h3">Our Transport Facility:</h3>
+	<label for="amazing">
+	<input type="radio" name="transport" value="amazing" required/>Amazing</label>
+
+<label for="great">
+	<input type="radio" name="transport" value="great" required/>Great</label>
+	<label for="good">
+	<input type="radio" name="transport" value="good" required/>Good</label>
+	<label for="average">
+	<input type="radio" name="transport" value="average" required/>Average</label>
+	<label for="bad">
+	<input type="radio" name="transport" value="bad" required/>Bad</label>
+</div>
+</div>
+<br><br>
+<div class="container3">
+<div class="horz-align" id="flex3">
+<h3 id="h3">Our Tour Guide:</h3>
+<label for="amazing">
+	<input type="radio" name="guide" value="amazing" required/>Amazing</label>
+<label for="great">
+	<input type="radio" name="guide" value="great" required/>Great</label>
+	<label for="good">
+	<input type="radio" name="guide" value="good" required/>Good</label>
+	<label for="average">
+	<input type="radio" name="guide" value="average" required/>Average</label>
+	<label for="bad">
+	<input type="radio" name="guide" value="bad" required/>Bad</label>
+</div>
+<div>
+	<br>
+	<h3 id="h3">Our accommodation facility:</h3>
+	<label for="amazing">
+	<input type="radio" name="accommodation" value="amazing" required>Amazing</label>
+	<label for="great">
+	<input type="radio" name="accommodation" value="great" required/>Great</label>
+	<label for="good">
+	<input type="radio" name="accommodation" value="good" required/>Good</label>
+	<label for="average">
+	<input type="radio" name="accommodation" value="average" required/>Average</label>
+	<label for="bad">
+	<input type="radio" name="accommodation" value="bad" required/>Bad</label>
+</div>
+</div>
+<div id="meal">
+	<h3 id="h3">How would you like to rate for our Meal Plan:</h3>
+	<label for="amazing">
+	<input type="checkbox" name="meals" value="amazing" required/>Meal plan was Amazing</label>
+	<label for="great">
+	<input type="checkbox" name="meals" value="great" required/>Meal plan was Great</label>
+	<label for="good">
+	<input type="checkbox" name="meals" value="good" required/>Meal plan was Good</label>
+	<label for="average">
+	<input type="checkbox" name="meals" value="average" required/>Meal plan was Average</label>
+	<label for="bad">
+	<input type="checkbox" name="meals" value="bad" required/>Meal plan was Bad</label>
+	</div>
+    <br>
+    <div class="div2">
+    	<label>Any Comments or Suggestion?</label>
+    	<textarea>
+    	</textarea>
+    </div>
+    <div>
+    <button type="submit" form="form" value="Submit" id="submit">Submit</button>
+</div>
+	
+</form>
+</div>
+</body>
+</html>
